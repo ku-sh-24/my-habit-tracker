@@ -7,7 +7,7 @@ function Entry() {
         Build the habits that <span className="text-customRed">make a difference!</span>
       </h1>
       <p className="text-center text-sm sm:w-[430px] w-[360px]">
-        Feeling overwhelmed and striving for perfection? You're in the right place. This habit tracking tool is here to support you in making gradual, meaningful changes without the pressure of perfection. Embrace progress over perfection, track your habits, and celebrate each small victory. Together, we’ll turn your goals into achievable milestones and make personal growth a rewarding experience.
+      Feeling overwhelmed and striving for perfection? You&apos;re in the right place. This habit tracking tool is here to support you in making gradual, meaningful changes without the pressure of perfection. Embrace progress over perfection, track your habits, and celebrate each small victory. Together, we&apos;ll turn your goals into achievable milestones and make personal growth a rewarding experience.
       </p>
       <button
         className="block sm:w-32 w-full rounded-lg px-9 py-3 text-sm font-medium border border-customRed text-customRed transition-colors duration-300 ease-in-out focus:outline-none hover:bg-customRed hover:text-white whitespace-nowrap flex items-center justify-center"
