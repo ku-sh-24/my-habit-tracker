@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Inter,Poppins } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
+import GlobalContextProvider from './contextApi';
+import Sidebar from "./Components/SideBar/Sidebar";
+// import {GlobalContextType} from "./Types/GlobalContextType";
+
 
 const inter = Inter({ subsets:["latin"]});
 
@@ -24,9 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ClerkProvider>
-        <body className={"poppins.className"}>{children}</body>
+        {/* console.log("working"); */}
+        <GlobalContextProvider>
+          <body className={"poppins.className"}>{children}</body>
+        </GlobalContextProvider>
       </ClerkProvider>
-      {/* <body className={poppins.className}>{children}</body> */}
     </html>
   );
 }

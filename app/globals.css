@@ -35,3 +35,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.bg-customRed {
+  background-color: #ED8F27; /* A custom red color */
+}
+
+.text-white {
+  color: #ffffff; /* Pure white text color */
+}
