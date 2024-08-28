@@ -1,10 +1,10 @@
-import { EmailAddress } from "@clerk/nextjs/server";
-import { timeStamp } from "console";
+// import { EmailAddress } from "@clerk/nextjs/server";
+// import { timeStamp } from "console";
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema(
   {
-    clerkUserID: {type: String, unique: true, required: true},
+    clerkUserId: {type: String, unique: true, required: true},
     EmailAddress: {type: String, required: true},
   },
   {timestamps : true}
